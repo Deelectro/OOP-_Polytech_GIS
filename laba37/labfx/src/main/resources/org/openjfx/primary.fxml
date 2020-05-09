@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="315.0" prefWidth="558.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.PrimaryController">
+   <children>
+      <AnchorPane prefHeight="275.0" prefWidth="459.0">
+         <children>
+            <RadioButton fx:id="rbJumprope" disable="true" layoutX="65.0" layoutY="108.0" mnemonicParsing="false" text="Скакалка" />
+            <RadioButton fx:id="rbSquatting" disable="true" layoutX="65.0" layoutY="86.0" mnemonicParsing="false" text="Приседание" />
+            <RadioButton fx:id="rbPushup" layoutX="66.0" layoutY="63.0" mnemonicParsing="false" selected="true" text="Отжимание" />
+            <Label layoutX="150.0" layoutY="-13.0" prefHeight="55.0" prefWidth="82.0" text="Фитнес-трекер" textAlignment="CENTER" />
+            <Button fx:id="bStartTrack" layoutX="202.0" layoutY="51.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" text="Начать тренировку" />
+            <Button fx:id="bStopTrack" disable="true" layoutX="202.0" layoutY="82.0" mnemonicParsing="false" text="Закончить тренировку" />
+            <Label fx:id="label1" layoutX="55.0" layoutY="165.0" prefHeight="17.0" prefWidth="162.0" text="Тренировка &quot;Отжимание&quot;:" textAlignment="CENTER" />
+            <Label fx:id="label2" layoutX="55.0" layoutY="187.0" prefHeight="17.0" prefWidth="162.0" text="Тренировка &quot;Приседание&quot;:" textAlignment="CENTER" />
+            <Label fx:id="label3" layoutX="55.0" layoutY="209.0" prefHeight="17.0" prefWidth="162.0" text="Тренировка &quot;Скакалка&quot;:" textAlignment="CENTER" />
+            <Label fx:id="labelPushup" layoutX="208.0" layoutY="165.0" prefHeight="17.0" prefWidth="263.0" />
+            <Label fx:id="labelSquatting" layoutX="208.0" layoutY="187.0" prefHeight="17.0" prefWidth="263.0" />
+            <Label fx:id="labelJumprope" layoutX="208.0" layoutY="209.0" prefHeight="17.0" prefWidth="263.0" />
+            <Button fx:id="bReset" layoutX="292.0" layoutY="113.0" mnemonicParsing="false" text="Сброс" />
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
